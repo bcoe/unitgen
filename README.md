@@ -29,7 +29,7 @@ a frame of audio.
 npm install unitgen -g
 ```
 
-# Examples
+## Examples
 
 So that you can get an idea of _unitgen_ in action, we've provided a few sample unit-generator-graphs.
 For each example, use `a` and `s` to pan back and forth.
@@ -52,7 +52,7 @@ unitgen canceling
 unitgen mixer --track1=./foo.wav --track2=./foo2.wav
 ```
 
-# The future
+## The future
 
 _unitgen_ is a rough proof of concept. Over time we'd love to see this grow into a
 full-featured API for building (as a practical example) mixers in JavaScript.
