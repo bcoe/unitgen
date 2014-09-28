@@ -1,7 +1,7 @@
 {
   "name": "unitgen",
   "version": "1.0.0",
-  "description": "A speaker powered unit-generator",
+  "description": "An API for building audio-unit-generators in Node.js",
   "main": "index.js",
   "bin": "./bin/unitgen.js",
   "scripts": {
@@ -11,7 +11,16 @@
     "type": "git",
     "url": "https://github.com/bcoe/unitgen.git"
   },
-  "authors": ["Benjamin Coe <ben@npmjs.com>", "Gabriel Silk <gabesilk@gmail.com>"],
+  "author": {
+    "name": "Benjamin Coe",
+    "email": "ben@npmjs.com"
+  },
+  "contributors": [
+    {
+      "name": "Gabriel Silk",
+      "email": "gabesilk@gmail.com"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bcoe/unitgen/issues"
