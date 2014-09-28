@@ -37,19 +37,19 @@ For each example, use `a` and `s` to pan back and forth.
 * **stereo.js:** uses a `function` unit-generator to play a sine-wave which can be panned between the left and right speaker.
 
 ```bash
-unitgen note
+unitgen stereo
 ```
 
 * **canceling.js:** uses a `combiner`, and two `function` unit-generators to play two inverse sine-waves. Pan back and forth to hear them cancel out.
 
 ```bash
-unitgen two-notes
+unitgen canceling
 ```
 
 * **mixer.js:** uses a `combiner`, and two `sound-file` unit-generators to pan between two songs.
 
 ```bash
-unitgen two-songs --track1=./foo.wav --track2=./foo2.wav
+unitgen mixer --track1=./foo.wav --track2=./foo2.wav
 ```
 
 # The future
