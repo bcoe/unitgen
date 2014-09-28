@@ -17,7 +17,7 @@ This can be used to:
 
 ## How does it work?
 
-* __unitgen__'s speaker binding invokes a callback which samples from a stream
+* _unitgen_'s speaker binding invokes a callback which samples from a stream
 44100 times a second.
 * the stream takes a snapshot of the current state of all the unit-generators, and outputs
 a frame of audio.
@@ -54,7 +54,7 @@ unitgen two-songs --track1=./foo.wav --track2=./foo2.wav
 
 # The future
 
-__unitgen__ is a rough proof of concept. Over time we'd love to see this grow into a
+_unitgen_ is a rough proof of concept. Over time we'd love to see this grow into a
 full-featured API for building (as a practical example) mixers in JavaScript.
 
 patches welcome!
